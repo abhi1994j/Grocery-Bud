@@ -41,7 +41,7 @@ function App() {
     }
 
     function handleChange(e){
-      console.log(e);
+      
       const {name , value} = e.target ;
       setItem({...item , [name]:value})
     }
